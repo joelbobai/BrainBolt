@@ -80,6 +80,11 @@ const styles = StyleSheet.create({
     borderColor: '#e63946',
     backgroundColor: '#ffebee',
   },
+  optionHidden: {
+    borderColor: '#d0d7e2',
+    backgroundColor: '#f4f6fa',
+    opacity: 0.6,
+  },
   primaryButton: {
     backgroundColor: '#1b2a49',
     paddingVertical: 16,
@@ -125,8 +130,101 @@ const styles = StyleSheet.create({
   highScoreText: {
     fontSize: 16,
     color: '#1b2a49',
-    marginBottom: 24,
+    marginBottom: 8,
     fontWeight: '600',
+  },
+  settingLabel: {
+    marginTop: 4,
+    marginBottom: 8,
+    fontSize: 14,
+    color: '#415a77',
+    fontWeight: '700',
+  },
+  inlineOptionsRow: {
+    flexDirection: 'row',
+    gap: 10,
+    flexWrap: 'wrap',
+    marginBottom: 6,
+  },
+  chipButton: {
+    borderWidth: 1,
+    borderColor: '#b8c5d8',
+    borderRadius: 999,
+    paddingVertical: 8,
+    paddingHorizontal: 12,
+    marginBottom: 6,
+  },
+  chipButtonActive: {
+    backgroundColor: '#1b2a49',
+    borderColor: '#1b2a49',
+  },
+  chipButtonText: {
+    color: '#1b2a49',
+    fontWeight: '700',
+  },
+  chipButtonTextActive: {
+    color: '#ffffff',
+  },
+  dailyChallengeButton: {
+    borderRadius: 12,
+    backgroundColor: '#ffb703',
+    paddingVertical: 12,
+    alignItems: 'center',
+    marginTop: 6,
+    marginBottom: 4,
+  },
+  dailyChallengeText: {
+    color: '#2b2d42',
+    fontWeight: '800',
+  },
+  progressBarTrack: {
+    height: 8,
+    borderRadius: 999,
+    backgroundColor: '#dde5f0',
+    marginBottom: 10,
+    overflow: 'hidden',
+  },
+  progressBarFill: {
+    height: '100%',
+    backgroundColor: '#2a9d8f',
+  },
+  quizMetaText: {
+    fontSize: 13,
+    color: '#415a77',
+    marginBottom: 4,
+    fontWeight: '600',
+  },
+  inlineActionButton: {
+    flex: 1,
+    minWidth: 130,
+    paddingHorizontal: 8,
+  },
+  correctFeedback: {
+    color: '#2a9d8f',
+    fontWeight: '700',
+    marginBottom: 8,
+  },
+  wrongFeedback: {
+    color: '#e63946',
+    fontWeight: '700',
+    marginBottom: 8,
+  },
+  challengeBadge: {
+    alignSelf: 'flex-start',
+    marginTop: 4,
+    marginBottom: 8,
+    backgroundColor: '#ffe8a3',
+    color: '#6b4f00',
+    paddingVertical: 4,
+    paddingHorizontal: 10,
+    borderRadius: 999,
+    fontWeight: '700',
+  },
+  performanceText: {
+    fontSize: 18,
+    color: '#1b2a49',
+    fontWeight: '800',
+    marginBottom: 10,
   },
 });
 
