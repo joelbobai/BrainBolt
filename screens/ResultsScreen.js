@@ -2,12 +2,13 @@ import React, { useEffect, useState } from 'react';
 import { SafeAreaView, Text, TouchableOpacity, View } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
+import { CATEGORY_LABELS } from '../data';
 import styles from '../styles/styles';
 
 const HIGH_SCORE_KEY = 'brainbolt_high_score';
 
 export default function ResultsScreen({ navigation, route }) {
-  const { score, totalQuestions } = route.params;
+  const { score, totalQuestions, category = 'science' } = route.params;
   const [highScore, setHighScore] = useState(0);
 
   const percent = Math.round((score / totalQuestions) * 100);
@@ -25,7 +26,6 @@ export default function ResultsScreen({ navigation, route }) {
           await AsyncStorage.setItem(HIGH_SCORE_KEY, String(updatedHighScore));
         }
       } catch (error) {
-        // Fallback to current score if storage isn't available for any reason.
         setHighScore(score);
       }
     };
@@ -36,6 +36,7 @@ export default function ResultsScreen({ navigation, route }) {
   return (
     <SafeAreaView style={[styles.container, styles.centered]}>
       <View style={styles.card}>
+        <Text style={styles.subtitle}>Category: {CATEGORY_LABELS[category]}</Text>
         <Text style={styles.scoreText}>
           Score: {score} / {totalQuestions}
         </Text>
@@ -44,10 +45,18 @@ export default function ResultsScreen({ navigation, route }) {
 
         <TouchableOpacity
           style={styles.primaryButton}
-          onPress={() => navigation.replace('Quiz')}
+          onPress={() => navigation.replace('Quiz', { category })}
           activeOpacity={0.85}
         >
           <Text style={styles.buttonText}>Retry</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity
+          style={styles.secondaryButton}
+          onPress={() => navigation.replace('Home')}
+          activeOpacity={0.85}
+        >
+          <Text style={styles.secondaryButtonText}>Back to Categories</Text>
         </TouchableOpacity>
       </View>
     </SafeAreaView>

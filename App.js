@@ -20,7 +20,7 @@ export default function App() {
           contentStyle: { backgroundColor: '#f5f7fb' },
         }}
       >
-        <Stack.Screen name="Home" component={HomeScreen} options={{ title: 'BrainBolt' }} />
+        <Stack.Screen name="Home" component={HomeScreen} options={{ title: 'Category Select' }} />
         <Stack.Screen name="Quiz" component={QuizScreen} options={{ title: 'Quiz Time' }} />
         <Stack.Screen name="Results" component={ResultsScreen} options={{ title: 'Results' }} />
       </Stack.Navigator>
