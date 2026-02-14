@@ -1,0 +1,26 @@
+const scienceQuestions = [
+  { id: 's1', question: 'What is the chemical symbol for water?', options: ['H2O', 'O2', 'CO2', 'NaCl'], correctIndex: 0 },
+  { id: 's2', question: 'Which planet is known for its prominent rings?', options: ['Mars', 'Saturn', 'Venus', 'Neptune'], correctIndex: 1 },
+  { id: 's3', question: 'What force keeps planets in orbit around the Sun?', options: ['Magnetism', 'Friction', 'Gravity', 'Inertia'], correctIndex: 2 },
+  { id: 's4', question: 'What gas do humans need to breathe to survive?', options: ['Nitrogen', 'Oxygen', 'Hydrogen', 'Helium'], correctIndex: 1 },
+  { id: 's5', question: 'What part of the cell contains genetic material?', options: ['Nucleus', 'Membrane', 'Ribosome', 'Cytoplasm'], correctIndex: 0 },
+  { id: 's6', question: 'Which organ pumps blood through the human body?', options: ['Liver', 'Lung', 'Heart', 'Kidney'], correctIndex: 2 },
+  { id: 's7', question: 'What is the nearest star to Earth?', options: ['Sirius', 'Alpha Centauri', 'The Sun', 'Betelgeuse'], correctIndex: 2 },
+  { id: 's8', question: 'Which blood cells help fight infection?', options: ['Red blood cells', 'Platelets', 'White blood cells', 'Plasma cells'], correctIndex: 2 },
+  { id: 's9', question: 'What is the process by which plants make food?', options: ['Respiration', 'Digestion', 'Photosynthesis', 'Fermentation'], correctIndex: 2 },
+  { id: 's10', question: 'What is the center of an atom called?', options: ['Electron shell', 'Nucleus', 'Proton cloud', 'Ion core'], correctIndex: 1 },
+  { id: 's11', question: 'Which planet is called the Red Planet?', options: ['Mercury', 'Mars', 'Jupiter', 'Uranus'], correctIndex: 1 },
+  { id: 's12', question: 'What is the boiling point of water at sea level?', options: ['50°C', '75°C', '100°C', '120°C'], correctIndex: 2 },
+  { id: 's13', question: 'Which vitamin is produced when skin is exposed to sunlight?', options: ['Vitamin A', 'Vitamin C', 'Vitamin D', 'Vitamin K'], correctIndex: 2 },
+  { id: 's14', question: 'What type of energy is stored in food?', options: ['Electrical', 'Chemical', 'Nuclear', 'Thermal'], correctIndex: 1 },
+  { id: 's15', question: 'How many bones are in the adult human body?', options: ['206', '180', '220', '150'], correctIndex: 0 },
+  { id: 's16', question: 'Which layer protects Earth from harmful UV rays?', options: ['Troposphere', 'Ozone layer', 'Mesosphere', 'Ionosphere'], correctIndex: 1 },
+  { id: 's17', question: 'What instrument is used to measure temperature?', options: ['Barometer', 'Thermometer', 'Altimeter', 'Hygrometer'], correctIndex: 1 },
+  { id: 's18', question: 'What is the largest organ in the human body?', options: ['Liver', 'Heart', 'Skin', 'Brain'], correctIndex: 2 },
+  { id: 's19', question: 'Which scientist developed the theory of relativity?', options: ['Isaac Newton', 'Albert Einstein', 'Galileo Galilei', 'Niels Bohr'], correctIndex: 1 },
+  { id: 's20', question: 'What particle has a negative electric charge?', options: ['Proton', 'Neutron', 'Electron', 'Photon'], correctIndex: 2 },
+  { id: 's21', question: 'Which gas is most abundant in Earth’s atmosphere?', options: ['Oxygen', 'Nitrogen', 'Carbon Dioxide', 'Argon'], correctIndex: 1 },
+  { id: 's22', question: 'What branch of science studies living organisms?', options: ['Chemistry', 'Physics', 'Biology', 'Geology'], correctIndex: 2 },
+];
+
+export default scienceQuestions;

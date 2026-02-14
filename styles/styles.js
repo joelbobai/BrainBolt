@@ -20,24 +20,37 @@ const styles = StyleSheet.create({
   subtitle: {
     fontSize: 16,
     color: '#415a77',
-    marginBottom: 32,
+    marginBottom: 20,
     textAlign: 'center',
   },
   card: {
     backgroundColor: '#ffffff',
     borderRadius: 16,
     padding: 20,
+    width: '100%',
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.08,
     shadowRadius: 6,
     elevation: 3,
   },
+  categoryText: {
+    fontSize: 14,
+    color: '#415a77',
+    marginBottom: 6,
+    fontWeight: '600',
+  },
   progressText: {
     fontSize: 14,
     color: '#415a77',
-    marginBottom: 12,
+    marginBottom: 6,
     fontWeight: '600',
+  },
+  timerText: {
+    fontSize: 14,
+    color: '#e63946',
+    marginBottom: 14,
+    fontWeight: '700',
   },
   questionText: {
     fontSize: 22,
@@ -77,6 +90,20 @@ const styles = StyleSheet.create({
   },
   primaryButtonDisabled: {
     backgroundColor: '#9aa8bb',
+  },
+  secondaryButton: {
+    borderWidth: 2,
+    borderColor: '#1b2a49',
+    paddingVertical: 14,
+    paddingHorizontal: 28,
+    borderRadius: 12,
+    alignItems: 'center',
+    marginTop: 10,
+  },
+  secondaryButtonText: {
+    color: '#1b2a49',
+    fontSize: 15,
+    fontWeight: '700',
   },
   buttonText: {
     color: '#ffffff',

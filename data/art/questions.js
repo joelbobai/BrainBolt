@@ -1,0 +1,26 @@
+const artQuestions = [
+  { id: 'a1', question: 'Who painted the Mona Lisa?', options: ['Vincent van Gogh', 'Pablo Picasso', 'Leonardo da Vinci', 'Claude Monet'], correctIndex: 2 },
+  { id: 'a2', question: 'Starry Night was painted by which artist?', options: ['Vincent van Gogh', 'Salvador Dalí', 'Paul Cézanne', 'Henri Matisse'], correctIndex: 0 },
+  { id: 'a3', question: 'What primary colors are used in traditional painting?', options: ['Red, Yellow, Blue', 'Red, Green, Blue', 'Blue, Black, White', 'Yellow, Green, Purple'], correctIndex: 0 },
+  { id: 'a4', question: 'Which art movement is Pablo Picasso associated with?', options: ['Cubism', 'Impressionism', 'Surrealism', 'Baroque'], correctIndex: 0 },
+  { id: 'a5', question: 'What do artists use to blend and apply paint?', options: ['Palette knife', 'Chisel', 'Compass', 'Stapler'], correctIndex: 0 },
+  { id: 'a6', question: 'Which museum is home to the Mona Lisa?', options: ['The Met', 'Louvre Museum', 'Uffizi Gallery', 'Tate Modern'], correctIndex: 1 },
+  { id: 'a7', question: 'What is sculpture primarily a form of?', options: ['Performance art', 'Three-dimensional art', 'Digital animation', 'Calligraphy'], correctIndex: 1 },
+  { id: 'a8', question: 'Which medium uses water-soluble pigments?', options: ['Oil painting', 'Acrylic painting', 'Watercolor painting', 'Fresco'], correctIndex: 2 },
+  { id: 'a9', question: 'Who painted The Persistence of Memory?', options: ['Salvador Dalí', 'Edvard Munch', 'Frida Kahlo', 'Rembrandt'], correctIndex: 0 },
+  { id: 'a10', question: 'What is the art of beautiful handwriting called?', options: ['Typography', 'Calligraphy', 'Etching', 'Graffiti'], correctIndex: 1 },
+  { id: 'a11', question: 'Which artist is known for Campbell’s Soup Cans?', options: ['Andy Warhol', 'Jackson Pollock', 'Georgia O’Keeffe', 'Banksy'], correctIndex: 0 },
+  { id: 'a12', question: 'What is a self-portrait?', options: ['A painting of nature', 'An artwork of the artist by themselves', 'A copied artwork', 'A portrait of a friend'], correctIndex: 1 },
+  { id: 'a13', question: 'Which material is commonly used in pottery?', options: ['Glass', 'Clay', 'Steel', 'Wool'], correctIndex: 1 },
+  { id: 'a14', question: 'What does abstract art emphasize?', options: ['Exact realism', 'Shapes, colors, and forms', 'Historical accuracy', 'Mathematical formulas'], correctIndex: 1 },
+  { id: 'a15', question: 'Which famous muralist painted works in Mexico and the U.S.?', options: ['Diego Rivera', 'Paul Klee', 'Joan Miró', 'Gustav Klimt'], correctIndex: 0 },
+  { id: 'a16', question: 'What tool is used to shape clay on a wheel?', options: ['Potter’s wheel', 'Easel', 'Airbrush', 'Press'], correctIndex: 0 },
+  { id: 'a17', question: 'What is perspective in drawing used for?', options: ['Mixing paints', 'Creating depth', 'Sharpening pencils', 'Framing artwork'], correctIndex: 1 },
+  { id: 'a18', question: 'Who painted The Scream?', options: ['Edvard Munch', 'René Magritte', 'Claude Monet', 'Jan Vermeer'], correctIndex: 0 },
+  { id: 'a19', question: 'Which period came first?', options: ['Renaissance', 'Modernism', 'Baroque', 'Impressionism'], correctIndex: 0 },
+  { id: 'a20', question: 'What is an easel?', options: ['A paint type', 'A stand for holding canvas', 'A sculpture tool', 'A framing method'], correctIndex: 1 },
+  { id: 'a21', question: 'Which element refers to lightness or darkness in art?', options: ['Texture', 'Value', 'Line', 'Space'], correctIndex: 1 },
+  { id: 'a22', question: 'Which artist is famous for drip painting?', options: ['Jackson Pollock', 'Henri Rousseau', 'Albrecht Dürer', 'Caravaggio'], correctIndex: 0 },
+];
+
+export default artQuestions;

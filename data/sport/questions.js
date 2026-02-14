@@ -1,0 +1,26 @@
+const sportQuestions = [
+  { id: 'sp1', question: 'How many players are on a soccer team on the field?', options: ['9', '10', '11', '12'], correctIndex: 2 },
+  { id: 'sp2', question: 'In basketball, how many points is a free throw worth?', options: ['1', '2', '3', '4'], correctIndex: 0 },
+  { id: 'sp3', question: 'Which country hosts the Wimbledon tennis tournament?', options: ['France', 'Australia', 'United States', 'United Kingdom'], correctIndex: 3 },
+  { id: 'sp4', question: 'In baseball, how many strikes result in an out?', options: ['2', '3', '4', '5'], correctIndex: 1 },
+  { id: 'sp5', question: 'What sport uses a shuttlecock?', options: ['Squash', 'Tennis', 'Badminton', 'Table Tennis'], correctIndex: 2 },
+  { id: 'sp6', question: 'How long is an Olympic swimming pool?', options: ['25 meters', '50 meters', '75 meters', '100 meters'], correctIndex: 1 },
+  { id: 'sp7', question: 'In golf, what is one stroke under par called?', options: ['Bogey', 'Birdie', 'Eagle', 'Albatross'], correctIndex: 1 },
+  { id: 'sp8', question: 'Which sport is known as the “king of sports”?', options: ['Basketball', 'Cricket', 'Soccer', 'Rugby'], correctIndex: 2 },
+  { id: 'sp9', question: 'How many rings are on the Olympic flag?', options: ['4', '5', '6', '7'], correctIndex: 1 },
+  { id: 'sp10', question: 'What is the maximum score in a single frame of ten-pin bowling?', options: ['20', '30', '40', '50'], correctIndex: 1 },
+  { id: 'sp11', question: 'In volleyball, how many players are on court per team?', options: ['5', '6', '7', '8'], correctIndex: 1 },
+  { id: 'sp12', question: 'Which country won the FIFA World Cup in 2018?', options: ['Brazil', 'Germany', 'France', 'Argentina'], correctIndex: 2 },
+  { id: 'sp13', question: 'In Formula 1, the checkered flag signals what?', options: ['Start of race', 'Rain warning', 'End of race', 'Pit lane open'], correctIndex: 2 },
+  { id: 'sp14', question: 'How many holes are played in a standard round of golf?', options: ['9', '12', '18', '24'], correctIndex: 2 },
+  { id: 'sp15', question: 'What is the name of the trophy awarded to NHL champions?', options: ['Lombardi Trophy', 'Stanley Cup', 'Webb Ellis Cup', 'Commissioner’s Trophy'], correctIndex: 1 },
+  { id: 'sp16', question: 'In cricket, how many runs is a boundary worth when the ball crosses the rope on the ground?', options: ['2', '4', '6', '8'], correctIndex: 1 },
+  { id: 'sp17', question: 'Which sport uses the terms love, deuce, and ace?', options: ['Tennis', 'Hockey', 'Handball', 'Polo'], correctIndex: 0 },
+  { id: 'sp18', question: 'A marathon race is approximately how long?', options: ['21.1 km', '30 km', '42.2 km', '50 km'], correctIndex: 2 },
+  { id: 'sp19', question: 'In boxing, how many minutes is a standard professional round?', options: ['1', '2', '3', '5'], correctIndex: 2 },
+  { id: 'sp20', question: 'Which sport features a pommel horse?', options: ['Fencing', 'Gymnastics', 'Diving', 'Weightlifting'], correctIndex: 1 },
+  { id: 'sp21', question: 'In American football, how many points is a touchdown worth?', options: ['3', '5', '6', '7'], correctIndex: 2 },
+  { id: 'sp22', question: 'What is the term for three goals by one player in a game?', options: ['Triple play', 'Hat-trick', 'Clean sheet', 'Grand slam'], correctIndex: 1 },
+];
+
+export default sportQuestions;
