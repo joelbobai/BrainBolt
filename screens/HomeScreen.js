@@ -110,6 +110,20 @@ export default function HomeScreen({ navigation }) {
           <Text style={styles.dailyChallengeText}>Play Daily Challenge</Text>
         </TouchableOpacity>
 
+        <View style={styles.featureCallout}>
+          <Text style={styles.featureCalloutTitle}>New: permission-free study</Text>
+          <Text style={styles.featureCalloutText}>
+            Browse flash cards and reveal answers without enabling camera, notifications, location, or any other device access.
+          </Text>
+          <TouchableOpacity
+            style={styles.secondaryButton}
+            onPress={() => navigation.navigate('Study')}
+            activeOpacity={0.85}
+          >
+            <Text style={styles.secondaryButtonText}>Open Study Deck</Text>
+          </TouchableOpacity>
+        </View>
+
         {categories.map((categoryKey) => (
           <TouchableOpacity
             key={categoryKey}

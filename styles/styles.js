@@ -110,6 +110,66 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontWeight: '700',
   },
+
+  secondaryButtonDisabled: {
+    borderColor: '#b8c5d8',
+    opacity: 0.5,
+  },
+  featureCallout: {
+    marginTop: 12,
+    marginBottom: 8,
+    borderRadius: 12,
+    backgroundColor: '#eef4ff',
+    padding: 14,
+  },
+  featureCalloutTitle: {
+    color: '#1b2a49',
+    fontSize: 16,
+    fontWeight: '800',
+    marginBottom: 4,
+  },
+  featureCalloutText: {
+    color: '#415a77',
+    fontSize: 14,
+    lineHeight: 20,
+  },
+  studyScrollContent: {
+    flexGrow: 1,
+    justifyContent: 'center',
+  },
+  studyCard: {
+    marginTop: 8,
+    marginBottom: 16,
+    borderRadius: 14,
+    backgroundColor: '#f8fbff',
+    borderWidth: 1,
+    borderColor: '#d9e2ec',
+    padding: 16,
+  },
+  answerPanel: {
+    marginTop: 12,
+    borderRadius: 12,
+    backgroundColor: '#e6f8f6',
+    padding: 14,
+  },
+  answerLabel: {
+    color: '#2a9d8f',
+    fontSize: 13,
+    fontWeight: '800',
+    textTransform: 'uppercase',
+    marginBottom: 4,
+  },
+  answerText: {
+    color: '#0d1b2a',
+    fontSize: 18,
+    fontWeight: '700',
+  },
+  studyHintText: {
+    marginTop: 12,
+    color: '#415a77',
+    fontSize: 14,
+    lineHeight: 20,
+  },
   buttonText: {
     color: '#ffffff',
     fontSize: 16,
